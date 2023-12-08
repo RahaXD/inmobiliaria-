@@ -1,0 +1,28 @@
+.imgnosotros
+{
+    width: 50%;
+
+    float: left;
+    padding: auto;
+    margin: 15px;
+}
+.parrafouno
+{
+    
+    line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    padding-left: 10px;
+}
+.titulonosotros1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;    
+    
+}
+

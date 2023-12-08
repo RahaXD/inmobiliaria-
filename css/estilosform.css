@@ -1,0 +1,32 @@
+
+input, textarea, select{
+    width: 98%;
+    height: 30px;
+    border: 1px solid rgb(141, 141, 141);
+    padding: 5px;
+    border-radius: 40px;
+}
+label, legend{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    padding: 10px;
+    
+}
+textarea{
+    width:98%;height:80px;border: 1px dotted #000099;
+}
+#enviar
+{
+    background: #0388c5;
+    float: left;
+    width: 100px;
+    height: 50px;
+    padding: auto;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 4px black;
+}
+#enviar:hover
+{
+    background: cornflowerblue;
+}

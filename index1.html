@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Este texto es el título del documento</title>
+        <link rel="preload" href="css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/misestilos1.css">
+        <link rel="stylesheet" href="css/ventanamodal.css">
+    </head>
+    <body>
+       
+        <div id="agrupar">
+            <header id="cabecera">
+                <div id="logo">
+                    <span class="logotexto1">BIENES</span><span class="logotexto2">RAICES</span>     
+                </div>
+                <div id="logotexto">
+                    Venta de Casas y Departamentos Exclusivos de Lujo
+                </div>
+                
+            </header>
+            <div class="nav_bg">
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index1.html"><span class="selecciontexto">Principal</span></a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="anuncio.html">Anuncios</a></li>
+                        <li><a href="contactos.html">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section id="seccion">
+                <article>
+                    <header>
+                        <hgroup>
+                            <h1 class="title">Casas de Lujo en el Lago con Excelente Vista</h1>
+                            <h2 class="title">Casas de Lujo en el Lago con Excelente Vista, Acabados de Lujo a un Exelente Precio </h2>
+                        </hgroup>
+                        <time datetime="2021-12-10" pubdate>publicado 10-12-2011
+                        </time>
+                    </header>
+                    <figure>
+                        
+                        <figcaption>
+                            <img class="imganuncios"src="img/anuncio1.jpg">
+                        </figcaption>
+                    </figure>
+                    <footer>
+                        <p class="precio">$1,000,000</p>
+                        <center><a href="#modal" id="show-modal">Consultar</a></center>
+
+                        <!--
+                        <center><a href="frconsulta.html"><div class="verpropiedad">Consultar</div></a></center>
+                        -->
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <hgroup>
+                            <h1>Casa Terminada de Lujo</h1>
+                            <h2>Casas de Lujo en el Lago con Excelente Vista, Acabados de Lujo a un Exelente Precio </h2>
+                        </hgroup>
+                        <time datetime="2011-12-15" pubdate>publicado 15-12-2021
+                        </time>
+                    </header>
+                    <figure>
+                        <figcaption>
+                            <img class="imganuncios"src="img/anuncio2.jpg">
+                        </figcaption>
+                    </figure>
+                    <footer>
+                        <p class="precio">$3,000,000</p>
+                        <center><a href="#modal" id="show-modal">Consultar</a></center>
+                        <!--
+                        <center><a href="anuncio.html"><div class="verpropiedad">Consultar</div></a></center>
+                        -->
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <hgroup>
+                            <h1>Casa con alberca </h1>
+                            <h2>Casas de Lujo en el Lago con Excelente Vista, Acabados de Lujo a un Exelente Precio </h2>
+                        </hgroup>
+                        <time datetime="2011-12-15" pubdate>publicado 15-12-2021
+                        </time>
+                    </header>
+                    <figure>
+                        <figcaption>
+                            <img class="imganuncios"src="img/anuncio3.jpg">
+                        </figcaption>
+                    </figure>
+                    <footer>
+                        <p class="precio">$3,000,000</p>
+                        <center><a href="#modal" id="show-modal">Consultar</a></center>
+                        <!--
+                        
+                        <center><a href="anuncio.html"><div class="verpropiedad">Consultar</div></a></center>
+                    -->
+                    </footer>
+                </article>
+            </section>
+            <aside id="columna">
+                <h3>Testimoniales</h2>
+                <blockquote class="testimnio">El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas.
+                   
+                </blockquote>
+                <blockquote> - Juan De la torre</blockquote>
+            </aside>
+            <footer id="pie">
+                Derechos Reservados &copy; 2010-2021
+            </footer>
+        </div>
+        <!--
+        <script src="js/script.js"></script>-->
+        
+            <!--
+    <h1>Ventana Modal</h1>
+    
+    <a href="#modal" id="show-modal">Abrir Ventana </a>
+    -->
+    <aside id="modal" class="modal">
+        <div class="content-modal">
+            <header>
+                <a href="#" class="close-modal">X</a>
+                <h2>Contactar al anunciante    </h2>
+            </header>
+            <article>
+                
+                <form action="">
+                    <fieldset>
+                        <legend>Consultar</legend>
+                        <div class="bloque">
+                           
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{3,48}">
+                        </div>
+                        <div class="bloque">
+                            
+                            <input type="email" name="correo" id="correo" placeholder="Correo" required >
+                        </div>
+                        <div class="bloque">
+                            
+                            <input type="tel" name="telefono" id="telefono" placeholder="Telefono" required >
+                        </div>
+                        <div class="bloque">
+                            
+                            <textarea rows="6" cols="30" placeholder="  Hola, vi esta propiedad y quiero que me contacten. Gracias."></textarea>
+                        </div>
+                    </fieldset>
+                    <button>Enviar Consulta</button>
+                </form>
+
+            </article>
+        </div>
+        <a href="#" class="btn-close-modal"></a>  
+    </aside>
+
+    </body>
+</html>

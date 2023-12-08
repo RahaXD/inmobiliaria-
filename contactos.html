@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <title>Este texto es el título del documento</title>
+        <link rel="preload" href="css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/misestilos1.css">
+        <link rel="stylesheet" href="css/estilosform.css">
+    </head>
+    <body>
+        <div id="agrupar">
+            <header id="cabecera">
+                <div id="logo">
+                    <span class="logotexto1">BIENES</span><span class="logotexto2">RAICES</span>     
+                </div>
+                <div id="logotexto">
+                    Venta de Casas y Departamentos Exclusivos de Lujo
+                </div>
+                
+            </header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index1.html">Principal</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="anuncio.html">Anuncios</a></li>
+                    <li><a href="contactos.html"><span class="selecciontexto">Contactos</span></a></li>
+                </ul>
+            </nav>
+             <h1>contacto</h1>
+             <img src="img/destacada3.jpg">
+             <h1>llene el formulario de contacto</h1>
+             <form id="formulario" action="" method="">
+             <fieldset>
+                <legend>Informacion Personal </legend>
+                <div class="bloquenombre">
+                    <label>Nombre</label>
+                    <input type="text" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="bloqueemail">
+                    <label>Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="bloquetelefono">
+                    <label>Telefono</label>
+                    <input type="tel" id="telefono">
+                </div>
+                <div class="bloquemensaje">
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>    
+             </fieldset>
+             <fieldset>
+                <legend>Informacion sobre la Propiedad </legend>
+                <div class="vendecompra">
+                    <label>Vende o Compra</label>
+                    <select id="vende o compra">
+                        <option value="0">--Seleccione--</option>
+                       <option value="vende">Vende</option>     
+                       <option value="compra">Compra</option>
+                    </select>
+                </div>
+                <div class="presupuesto">
+                    <label>Precio o Presupuesto</label>
+                    <input type="number" id="presupuesto"placeholder="Tu Precio o Presupuesto">
+                </div>
+                
+             </fieldset>
+             <fieldset>
+                <legend>Informacion sobre la Propiedad </legend>
+                <div class="contacto">
+                    <label>Como Desea Ser Contactada</label>
+                    <input type="radio" value="0" name="contacto"  >
+                    <label>E-MAIL</label>
+                    <input type="radio" value="1" name="contacto" checked>
+                    <label>TELEFONO</label>
+                </div>
+                
+                <label>Si eligió teléfono, elija la fecha y la hora
+                </label>
+                <div class="Fecha">
+                    <label></label>
+                    <input type="date" id="fecha"placeholder="Fecha">
+                </div>
+                <div class="hora">
+                    <label></label>
+                    <input type="time" id="hora"placeholder="Hora">
+                </div>
+             </fieldset>
+             <button id="enviar" type="submit">Enviar</button>
+            </form>
+            <footer id="pie">
+                Derechos Reservados &copy; 2010-2021
+            </footer>
+        </div>
+        <script src="js/script.js"></script>  
+    </body>
+</html>

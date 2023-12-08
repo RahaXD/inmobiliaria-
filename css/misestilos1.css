@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+h1 {
+    font: bold 31px georgia,verdana, sans-serif;
+    text-align: center;    
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 20px 10px 50px 10px;
+}
+    
+h2 {
+    font: bold 18px monospace,verdana, sans-serif;
+    text-align: center;
+    }
+h3{
+    font: bold 15px monospace,verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}    
+header, section, footer, nav, aside, article, figure, figcaption,
+    hgroup{
+    display: block;
+    }
+body {
+        text-align: center;
+    }
+#agrupar {
+    
+    margin: 15px auto;
+    text-align: left;
+    max-width: 120rem;
+        }
+#cabecera {
+    
+    border: 1px solid #999999;
+    padding: 40px;
+    display: block;
+    background-image: url("../img/header.jpg");
+    background-position: left;
+    /*background-repeat: repeat-x, repeat;*/
+    background-repeat: no-repeat;
+    background-size: cover;            
+}
+@media (min-width:768px){
+    #cabecera
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+#logo
+{
+    font: bold 60px monospace,verdana, sans-serif;
+    text-shadow: 2px 2px #CCCCCC;
+   
+}
+#logotexto
+{
+    font-family: monospace;
+    text-align: right;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.logotexto1
+{
+  color: white;
+}
+.logotexto2
+{
+  color: black;
+}
+/*Barra de navegación*/
+#menu {
+       background: #CCCCCC;
+       margin:0 auto;
+       padding: 10px;
+        }
+   
+nav li{
+    list-style: none;
+    padding: 5px;
+    margin-right: 20px ;
+    font: bold 14px verdana, sans-serif;
+}      
+
+#menu li{
+    display: block;
+    text-align: center;
+       
+}
+@media (min-width:768px){
+    #menu li{
+       display: inline;
+}
+}    
+#menu a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding:1rem;   
+}
+#menu a:hover
+{
+    
+    background-color: rgb(24, 103, 241);
+    color:black;
+}
+
+#seccion {
+    float: left;
+    width: 100%;
+    margin: 20px;
+    }
+ @media (min-width:768px) {
+    #seccion{
+        width:68%
+    }
+ }
+#columna {
+    float: right;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background:rgb(194, 196, 192);
+    line-height: 2em;
+    text-align: justify;
+    
+}
+@media(min-width:768px){
+    #columna{
+        width: 20%;
+    }
+}
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+    }
+    article {
+    background: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 0px;
+    margin-bottom: 15px;
+        }
+    article footer {
+        text-align: right;
+        }
+    time {
+        color: #999999;
+        float:right;
+        }
+    figcaption {
+        font: italic 14px verdana, sans-serif;
+        }
+    .imganuncios
+    {
+        width:100%;
+    }   
+  
+    .precio
+    {
+        text-align: center;
+        font: bold 30px verdana, sans-serif;
+        color:rgb(54, 14, 235);
+        padding: 10px;
+        
+    } 
+    .verpropiedad
+    {
+      background: orange;  
+      width: 40%;
+      height: 30px;
+      border: none;
+      padding: 10px;
+    }  
+    a{
+        text-decoration: none;
+        font: bold 20px georgia, verdana, sans-serif;
+    }  
+    a div:hover{
+        background: coral;
+    }
+    .parrafo
+    {
+        
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        line-height: 2;
+        text-align: justify;
+    }
+    .nosotros
+    {
+        width: 50%;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+    }
+    .titulonosotros
+    {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        text-align: center;
+        font-weight: bold;
+        font-style: oblique;
+        padding: 10px;
+    }
+   
+    .trescolumnas
+    {
+        column-count: 3;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        line-height: 2;
+        padding: 10px;    }
+    .selecciontexto
+    {
+        background: rgb(233, 130, 13);
+        padding: 5px;
+        border-radius: 5px;
+    }
+    #show-modal
+    {
+        text-align: center;
+        background: #e7bf0c ;
+        padding: 10px 10px;
+        color: white;
+        font-weight: 100;
+        font-size: 1em;
+        border-radius: 3.5px;
+        text-decoration: none;
+        transition: all 0.15s linear;
+        
+        }
+    #show-modal:hover{
+        cursor:pointer;
+        background: #e7dcab;
+    
+    }
+    article footer
+    {
+        height: 100px;
+    }
+    
